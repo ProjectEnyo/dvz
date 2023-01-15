@@ -1,6 +1,16 @@
 main {
 	max-width: 70ch;
 }
+/*body {
+	background-color: #2b2b2b;
+	color: white;
+}*/
+span.online {
+	color: LimeGreen;
+}
+span.offline {
+	color: Red;
+}
 .gray {
 	color: gray;
 }
@@ -14,7 +24,7 @@ main {
 	color: red;
 }
 .lime {
-	color: limegreen;
+	color: MediumSeaGreen;
 }
 .blue {
 	color: blue;
