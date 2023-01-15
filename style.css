@@ -6,7 +6,7 @@ main {
 	color: white;
 }*/
 span.online {
-	color: LimeGreen;
+	color: limegreen;
 }
 span.offline {
 	color: Red;
@@ -24,7 +24,7 @@ span.offline {
 	color: red;
 }
 .lime {
-	color: MediumSeaGreen;
+	color: limegreen;
 }
 .blue {
 	color: blue;
