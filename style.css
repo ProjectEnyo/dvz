@@ -38,3 +38,7 @@ span.offline {
 .purple {
 	color: purple;
 }
+.tooltip {
+	text-decoration: underline dotted;
+	cursor: help;
+}
