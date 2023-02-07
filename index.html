@@ -36,6 +36,19 @@
 					Enyo DvZ tries to stay true to the original, compared to a lot of other servers.
 					We run occasional games	on the <code>dvz.projectenyo.eu</code> server and they are streamed on <a href="https://www.twitch.tv/brottweiler">Twitch.tv</a>.
 				</p>
+				<details>
+					<summary>Show stream</summary>
+					<div id="twitch-embed"></div>
+					<script src="https://embed.twitch.tv/embed/v1.js"></script>
+					<script type="text/javascript">
+					new Twitch.Embed("twitch-embed", {
+						width: 854,
+						height: 480,
+						channel: "brottweiler",
+						parent: ["embed.example.com", "othersite.example.com"]
+					});
+					</script>
+				</details>
 			</section>
 			<section>
 				<h1>The Game</h1>
