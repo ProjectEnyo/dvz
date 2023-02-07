@@ -11,33 +11,6 @@ span.online {
 span.offline {
 	color: Red;
 }
-.gray {
-	color: gray;
-}
-.indigo {
-	color: indigo;
-}
-.green {
-	color: green;
-}
-.red {
-	color: red;
-}
-.gold {
-	color: darkorange;
-}
-.lime {
-	color: limegreen;
-}
-.blue {
-	color: blue;
-}
-.yellow {
-	color: gold;
-}
-.purple {
-	color: purple;
-}
 .tooltip {
 	text-decoration: underline dotted;
 	cursor: help;
