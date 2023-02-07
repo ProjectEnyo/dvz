@@ -42,3 +42,6 @@ span.offline {
 	text-decoration: underline dotted;
 	cursor: help;
 }
+summary {
+	cursor: pointer;
+}
