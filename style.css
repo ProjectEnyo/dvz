@@ -1,10 +1,20 @@
 main {
 	max-width: 70ch;
+	margin: auto;
 }
-/*body {
-	background-color: #2b2b2b;
-	color: white;
-}*/
+body {
+	background-color: #222;
+	color: #F2F2F2;
+}
+p {
+	font-family: sans;
+}
+a {
+	color: LightSkyBlue;
+}
+a:visited {
+	color: MediumPurple;
+}
 span.online {
 	color: limegreen;
 }
