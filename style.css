@@ -3,11 +3,11 @@ main {
 	margin: auto;
 }
 body {
-	background-color: #111;
+	background-color: #222;
 	color: #F2F2F2;
 }
 p {
-	font-family: sans;
+	font-family: sans-serif;
 }
 a {
 	color: LightSkyBlue;
