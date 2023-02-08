@@ -28,3 +28,15 @@ span.offline {
 summary {
 	cursor: pointer;
 }
+img.left {
+	width: 30%;
+	float: left;
+	margin-right: 10px;
+	border: 2px solid black;
+}
+img.right {
+	width: 30%;
+	float: right;
+	margin-left: 10px;
+	border: 2px solid black;
+}
