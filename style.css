@@ -1,10 +1,11 @@
+body {
+	background: #111;
+	color: White;
+	background-image: url(img/bg.png);
+}
 main {
 	max-width: 70ch;
 	margin: auto;
-}
-body {
-	background-color: #222;
-	color: #F2F2F2;
 }
 p {
 	font-family: sans-serif;
@@ -19,7 +20,7 @@ a:visited {
 	color: MediumPurple;
 }
 span.online {
-	color: limegreen;
+	color: Lime;
 }
 span.offline {
 	color: Red;
@@ -48,10 +49,10 @@ section {
 }
 table,
 td {
-	border: 1px solid #666;
+	border: 1px solid DarkGray;
 }
 thead,
 tfoot {
-	background-color: #666;
-	color: #fff;
+	background-color: White;
+	color: Black;
 }
