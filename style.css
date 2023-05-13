@@ -31,7 +31,7 @@ span.offline {
 summary {
 	cursor: pointer;
 }
-img {
+img.dwarf, img.mob, img.shrine {
 	width: 30%;
 	border: 1px solid black;
 }
@@ -54,4 +54,11 @@ thead,
 tfoot {
 	background-color: White;
 	color: Black;
+}
+img.banner {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: auto;
+	width: 100%;
 }
