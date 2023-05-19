@@ -6,7 +6,7 @@ main {
 	max-width: 600px;
 	margin: auto;
 }
-p {
+p, td, li {
 	font-family: sans-serif;
 }
 h1,h2,h3,h4,h5,h6 {
@@ -28,8 +28,30 @@ span.offline {
 	text-decoration: underline dotted;
 	cursor: help;
 }
+table,
+td {
+	border: 1px solid DarkGray;
+}
+thead,
+tfoot {
+	background-color: White;
+	color: Black;
+}
 summary {
 	cursor: pointer;
+}
+blockquote {
+	font-style: italic;
+}
+img.banner {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: auto;
+	width: 100%;
+}
+section {
+	overflow: auto;
 }
 img.dwarf, img.mob, img.shrine {
 	width: 30%;
@@ -42,23 +64,4 @@ img.left {
 img.right {
 	float: right;
 	margin-left: 10px;
-}
-section {
-	overflow: auto;
-}
-table,
-td {
-	border: 1px solid DarkGray;
-}
-thead,
-tfoot {
-	background-color: White;
-	color: Black;
-}
-img.banner {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	height: auto;
-	width: 100%;
 }
