@@ -141,3 +141,11 @@ img.right {
 	float: right;
 	margin-left: 10px;
 }
+span.eu:before {
+	content: url(img/icons/europeanunion.png) / "European Union";
+	margin: 0 0.2em;
+}
+summary.camera:before {
+	content: url(img/icons/camera.png) / "Camera";
+	margin: 0 0.2em;
+}
