@@ -2,13 +2,14 @@ img.dwarf, img.mob, img.shrine {
 	width: 30%;
 	border: 1px solid black;
 }
+img.left, img.right {
+	margin-right: 10px;
+}
 img.left {
 	float: left;
-	margin-right: 10px;
 }
 img.right {
 	float: right;
-	margin-left: 10px;
 }
 span.eu:before {
 	content: url(img/icons/europeanunion.png) / "European Union";
